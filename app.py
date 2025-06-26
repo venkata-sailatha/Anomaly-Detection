@@ -45,6 +45,9 @@ if uploaded_file:
     except Exception as e:
         st.error(f"❌ Error reading file: {e}")
 
-if __name__ == "__main__":
-    main()  # or whatever function you're calling
+def main():
+    st.title("My Streamlit App on Render")
+    st.write("Hello, world!")
 
+if __name__ == "__main__":
+    main()
